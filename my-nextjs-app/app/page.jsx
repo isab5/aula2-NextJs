@@ -20,7 +20,7 @@ export default function Home() {
         </aside>
         <Image className={styles.img} src={Bannerkfc} alt="banner do KFC" />
         </div>
-      <Footer props="Footer" />
+      <Footer props="Todos os direitos reservados@KFC" />
       </main>
     </div>
   );
