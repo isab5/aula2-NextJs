@@ -1,0 +1,47 @@
+.body {
+  background-color: #fdf1e1;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.img {
+  border-radius: 1rem;
+  height: 70vh;
+  margin: 1.5rem;
+}
+
+@media (min-width:360px) and (max-width: 425px) {
+  .main {
+      flex-direction: column;
+  }
+  .img {
+    width: 20rem;
+    height: 10vh;
+  }
+}
+
+@media (min-width:426) and (max-width: 768px) {
+  .body {
+    width: 100%;
+  }
+  .img {
+    width: 45%;
+    height: 75vh;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main {
+    padding: 0 2rem;
+  }
+
+  .img {
+    width: 50%;
+    height: 56vh;
+  }
+}
